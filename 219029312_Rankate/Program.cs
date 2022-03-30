@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _219029312_Rankate.Presentation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace _219029312_Rankate
     {
         static void Main(string[] args)
         {
+            //219029312_Rankate
+            Initialize init = new Initialize();
+            init.Execute();
         }
     }
 }
